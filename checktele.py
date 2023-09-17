@@ -77,7 +77,7 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-    if choice == "2":
+    if choice == "4":
         c = d =random.choices(a)
         d = random.choices(b)
         f =  [c[0], d[0], "1", "1", "1", "1"]
@@ -89,7 +89,7 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-    if choice == "3":
+    if choice == "5":
         c = d =random.choices(a)
         d = random.choices(b)
         f =  [c[0], d[0], "2", "2", "2"]
@@ -101,7 +101,7 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-    if choice == "4":
+    if choice == "6":
         c = d =random.choices(a)
         d = random.choices(b)
         f =  [c[0], d[0], "2", "2", "2", "2"]
@@ -113,7 +113,7 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-    if choice == "5":
+    if choice == "7":
         c = d =random.choices(a)
         d = random.choices(b)
         f =  [c[0], d[0], "3", "3", "3"]
@@ -125,7 +125,7 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-    if choice == "6":
+    if choice == "8":
         c = d =random.choices(a)
         d = random.choices(b)
         f =  [c[0], d[0], "3", "3", "3", "3"]
@@ -137,7 +137,7 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-    if choice == "7":
+    if choice == "9":
         c = d =random.choices(a)
         d = random.choices(b)
         f =  [c[0], d[0], "4", "4", "4"]
@@ -149,7 +149,7 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-    if choice == "8":
+    if choice == "10":
         c = d =random.choices(a)
         d = random.choices(b)
         f =  [c[0], d[0], "4", "4", "4", "4"]
@@ -161,7 +161,7 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-    if choice == "9":
+    if choice == "11":
         c = d =random.choices(a)
         d = random.choices(b)
         f =  [c[0], d[0], "5", "5", "5"]
@@ -173,7 +173,7 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-    if choice == "10":
+    if choice == "12":
         c = d =random.choices(a)
         d = random.choices(b)
         f =  [c[0], d[0], "5", "5", "5", "5"]
@@ -185,7 +185,7 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-    if choice == "11":
+    if choice == "13":
         c = d =random.choices(a)
         d = random.choices(b)
         f =  [c[0], d[0], "6", "6", "6"]
@@ -197,7 +197,7 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-    if choice == "12":
+    if choice == "14":
         c = d =random.choices(a)
         d = random.choices(b)
         f =  [c[0], d[0], "6", "6", "6", "6"]
@@ -209,7 +209,7 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-    if choice == "13":
+    if choice == "15":
         c = d =random.choices(a)
         d = random.choices(b)
         f =  [c[0], d[0], "7", "7", "7"]
@@ -221,7 +221,7 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-    if choice == "14":
+    if choice == "16":
         c = d =random.choices(a)
         d = random.choices(b)
         f =  [c[0], d[0], "7", "7", "7", "7"]
@@ -233,7 +233,7 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-    if choice == "15":
+    if choice == "17":
         c = d =random.choices(a)
         d = random.choices(b)
         f =  [c[0], d[0], "8", "8", "8"]
@@ -245,7 +245,7 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-    if choice == "16":
+    if choice == "18":
         c = d =random.choices(a)
         d = random.choices(b)
         f =  [c[0], d[0], "8", "8", "8", "8"]
@@ -257,7 +257,7 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-    if choice == "17":
+    if choice == "19":
         c = d =random.choices(a)
         d = random.choices(b)
         f =  [c[0], d[0], "9", "9", "9"]
@@ -269,7 +269,7 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-    if choice == "18":
+    if choice == "20":
         c = d =random.choices(a)
         d = random.choices(b)
         f =  [c[0], d[0], "8", "9", "9", "9"]
