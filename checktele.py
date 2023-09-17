@@ -53,7 +53,7 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-                if choice == "2":
+    if choice == "2":
         c = d =random.choices(a)
         d = random.choices(b)
         f =  [c[0], d[0], "8", "8", "8", "8"]
