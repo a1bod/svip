@@ -15,6 +15,7 @@ from threading import Thread
 
 a = 'qwertyuiopassdfghjklzxcvbnm'
 b = 'qwertyuiopassdfghjklzxcvbnm1234567890'
+c = '1234567890'
 
 banned = []
 isclaim = ["off"]
@@ -278,6 +279,34 @@ def gen_user(choice):
             c = d =random.choices(a)
             d = random.choices(b)
             f =  [c[0], d[0], "9", "9", "9", "9"]
+            username = ''.join(f)
+        else:
+            pass
+    if choice == "21":
+        c = d =random.choices(a)
+        d = random.choices(a)
+        s = random.choices(c)
+        f =  [c[0], d[0], s[0], s[0], s[0]]
+        username = ''.join(f)
+        if username in banned[0]:
+            c = d =random.choices(a)
+            d = random.choices(a)
+            s = random.choices(c)
+            f =  [c[0], d[0], s[0], s[0], s[0]]
+            username = ''.join(f)
+        else:
+            pass
+    if choice == "22":
+        c = d =random.choices(a)
+        d = random.choices(a)
+        s = random.choices(c)
+        f =  [c[0], d[0], s[0], s[0], s[0],s[0]]
+        username = ''.join(f)
+        if username in banned[0]:
+            c = d =random.choices(a)
+            d = random.choices(a)
+            s = random.choices(c)
+            f =  [c[0], d[0], s[0], s[0], s[0],s[0]]
             username = ''.join(f)
         else:
             pass
